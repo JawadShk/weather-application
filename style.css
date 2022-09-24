@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('images/clear.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-width: 100%;
+    background-position: left center;
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.app-main{
+    width: 50vh;
+    margin: 100px auto;
+    background-color: rgba(240, 248, 255, 0.5);
+    padding: 20px;
+    text-align: center;
+}
+
+.app-main > * {
+    margin-bottom: 20px;
+}
+
+.input-box{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    outline: none;
+    color: #582233;
+    font-size: 25px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.input-box:focus{
+    background-color: rgba(255, 255, 255);
+}
+
+.weather-body{
+    display: none;
+    color: #582233;
+    /* font-weight: 600; */
+    padding: 20px;
+    line-height: 2;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 50vh;
+}
+
+.location-details{
+    font-weight: bold;
+}
+
+.weather-status{
+    padding: 20px;
+}
+
+.temp{
+    font-size: 55px;
+    font-weight: 800;
+    margin: 10px 0;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.min-max,.weather{
+    font-size: 18px;
+    font-weight: 600;
+}
